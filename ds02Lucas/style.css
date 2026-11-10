@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-color: #ccc9c9;
+    font-family: 'Times New Roman', Times, serif;
+    color: #812222;
+    
+}
+header{
+    background-color: #b80f0f;
+    color: #e4ecec;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    margin: 0;
+}
+header p{
+    margin-top: 5px;
+}
+main{
+    width: 400px;
+    margin: 60px auto;
+}
+.login{
+    background-color: #c4c0b2;
+    padding: 30px;
+    border: 1px solid #0930af96;
+    border-radius: 10px;
+    
+}
+.login h2{
+    text-align: center;
+    color: #723a3a;
+    margin-top: 0;
+}
+.descricao{
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+
+}
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button{
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #e70f0f;
+    color: #d8ebe5;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #c5c07b;
+}
+.cadastro{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.cadastro a{
+    color: #a57e7e;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    color: #777;
+}

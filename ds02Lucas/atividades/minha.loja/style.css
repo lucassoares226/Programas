@@ -1,0 +1,134 @@
+* {
+    margin: 15px;
+    padding: 10px;
+    box-sizing: 2px border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecf6ff;
+    color: #1e293b;
+}
+
+header {
+    background-color: #101827;
+    color: rgb(206, 106, 39);
+    padding: 25px 8%;
+    border-radius: 15px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+header p {
+    color: #cbd5e1;
+    text-align: center;
+}
+
+main {
+    max-width: 5000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    background-color: rgb(188, 175, 241);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 20px #cc8b8b10;
+}
+
+.produto img {
+    width: 30%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.informacoes {
+    flex: 1;
+}
+
+.desconto {
+    display: inline-block;
+    background-color: #dcfce7;
+    color: #15803d;
+    padding: 7px 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.informacoes h2 {
+    margin: 20px 0 12px;
+    font-size: 25px;
+}
+
+.descricao {
+    color: #64748b;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.preco-antigo {
+    color: #64748b;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+.preco-atual {
+    color: #16a34a;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 8px 0 20px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+@media (max-width: 650px) {
+    .produto {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .produto img {
+        width: 100%;
+    }
+
+    .informacoes h2 {
+        font-size: 22px;
+    }
+
+    header {
+        padding: 22px;
+    }
+}

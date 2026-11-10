@@ -1,0 +1,230 @@
+* {
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c2631;
+    color: #000000;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+}
+.menu {
+    width: 220px;
+    background-color: #0b0511;
+    color: rgb(241, 69, 97);
+    padding: 50px;
+}
+.menu h2 {
+    margin-bottom: 30px;
+}
+.menu nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.menu a {
+    color: rgb(185, 17, 17);
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #fcc307;
+}
+.conteudo {
+    flex: 1;
+    min-width: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.cabecalho h1 {
+    font-size: 32px;
+    margin: 8px 0;
+}
+.cabecalho p {
+    color: #d39014;
+}
+.administrador {
+    background-color: #35254d;
+    color: #d5b4ff;
+    padding: 12px 18px;
+    display: flex;
+    border-radius: 13px;
+    align-items: center;
+    gap: 10px;
+}
+.imagem-festival {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 33px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.imagem-festival img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.selo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #c00e38;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 9px;
+    font-weight: bold;
+    z-index: 3;
+}
+.destaque {
+    position: absolute;
+    bottom: 21px;
+    left: 20px;
+    background-color: #c00e38;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 9px;
+    font-weight: bold;
+    z-index: 2;
+}
+.informacoes {
+    margin-bottom: 35px;
+}
+.informacoes h2,
+.atracoes h2,
+.programacao h2,
+.regras h2{
+    margin-bottom: 15px;
+}
+.informacoes p {
+    color: #e6e3eb;
+    margin-bottom: 21px;
+    line-height: 1.6;
+}
+.indicadores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+.card {
+    flex: 1 1 150px;
+    background-color: #1d172b;
+    padding: 20px;
+    border-radius: 13px;
+    border: 1px solid #382b4d;
+}
+.card h3 {
+    color: #fcf8f8;
+    margin-top: 8px;
+}
+.card p{
+    color: #ecdfdf;
+}
+.atracoes{
+    margin-bottom: 35px;
+}
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.artista {
+    flex: 1 1 160px;
+}
+.programacao {
+    background-color: #1d172b;
+    padding: 26px;
+    border-radius: 11px;
+    margin-bottom: 35px;
+}
+.programacao .linha > div{
+    flex: 1 1 120px;
+    padding: 7px;
+}
+.programacao strong{
+    color: #c00e38;
+}
+.programacao p {
+    color: white;
+    margin-top: 11px;
+}
+.regras {
+    background-color: #1d172b;
+    padding: 25px;
+    border-radius: 13px;
+    margin-bottom: 35px;
+}
+.texto-regras {
+    height: 120px;
+    overflow: auto;
+    padding: 10px;
+    line-height: 1.7;
+    color: #c9c1d6;
+}
+.texto-regras p {
+    margin-bottom: 15px;
+}
+.rodape {
+    background-color: #1d172b;
+    color: #b9afc9;
+    padding: 25px;
+    border-radius: 13px;
+    text-align: center;
+    line-height: 1.8;
+}
+.botao-ingresso {
+    position: fixed;
+    bottom: 26px;
+    right: 25px;
+    background-color: #9b59e9;
+    color: white;
+    padding: 17px 23px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 10;
+    transition: 0.3s;
+}
+.botao-ingresso:hover {
+    background-color: #793bc4;
+    transform: scale(1.05);
+}
+@media (max-width: 750px) {
+    .container {
+        flex-direction: column;
+        padding: 16px;
+    }
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+    .menu h2{
+        margin-bottom: 15px;
+    }
+    .menu nav{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .cabecalho{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .imagem-festival {
+        height: 250px;
+    }
+}

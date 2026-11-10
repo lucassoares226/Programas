@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="perfil">
+        <h1>Lucas Soares</h1>
+        <h2>Desenvolvedor Front-End</h2>
+        <P>Sou estudante de Desenvolvimento de sistemas(Aprendendo a desenvolver em java,html e css),interesse em Desenvolvimento back-end e criação de interfaces.</P>
+
+        <h3>Habilidades</h3>
+        <ul class="habilidades">
+            <li>Entendo logica de programação.</li>
+            <li>Estudo tanto para Back-End quanto para Front-End.</li>
+            <li>Me esforço para aprender e aprimorar meus conhecimentos.</li>
+            <li>Proatividade.</li>
+        </ul>
+        <h3 class="titulo-contato">contato</h3>
+        <p class="contato">E-mail: seuemail@email.com</p>
+        <p class="contato">Telefone: (31) 99999-9999</p>
+        <p class="contato">Cidade: Belo horizonte </p>
+        <a class="botao" href="#">Entrar em contato</a>
+
+    </div>
+</body>
